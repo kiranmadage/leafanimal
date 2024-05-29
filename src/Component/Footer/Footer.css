@@ -1,0 +1,28 @@
+/* footer */
+.futter {
+    display: flex;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    /* background-color: rgb(195, 173, 184);  */
+    padding: 30px;
+    color: rgb(89, 89, 97);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.fut {
+    background-color: rgb(243, 230, 237);
+
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    border: 4px double rgb(56, 54, 54);
+    border-radius: 50px;
+    margin: 10px;
+}
