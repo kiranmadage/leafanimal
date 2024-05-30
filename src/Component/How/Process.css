@@ -1,0 +1,65 @@
+/* process component */
+.process {
+    height: 60vh;
+    width: 100vw;
+    /* border: 3px solid black; */
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.p-box1{
+    height: 58vh;
+    width: 49vw;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.p-box2{
+    height: 58vh;
+    width: 50vw;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+
+.para{
+    height: 57vh;
+    width: 23vw;
+    padding: 5px;
+    /* border: 2px solid black; */
+    
+}
+.p-heading  {
+    font-size: 96px;
+    line-height: 102px;
+    color: rgb(217, 186, 202);
+    font-family :Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 70px;
+    text-align: end;
+    margin-right: 70px;
+}
+
+.p-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color:rgb(48, 54, 33);
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light", sans-serif;
+    margin-left: 30px;
+}
+
+.p-img{
+    height: 57vh;
+    width: 15vw;
+}

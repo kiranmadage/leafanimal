@@ -9,6 +9,7 @@ import img2 from "./img2.webp"
 
 // import { img2 } from './1img.webp'
 import './About.css'
+import { Card } from "react-bootstrap";
 
 
 
@@ -23,7 +24,7 @@ export function About() {
     return (
         <>
             <Navbar />
-
+   
 
             <div className="content">
                 <div className="hii">

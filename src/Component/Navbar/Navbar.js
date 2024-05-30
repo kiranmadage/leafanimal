@@ -15,7 +15,7 @@ export function Navbar() {
                     <li> <a href='#'>Adopt</a></li>
                     <li> <a href='#'>Foster</a></li>
                     <li> <a href='#'>Sponsor</a></li>
-                    <li> <a href='#'>How to</a></li>
+                    <li> <a href='/how'>How to</a></li>
                     <li> <a href='#'>Create Profile</a></li>
                     <li> <a href='#'>FF Workshop</a></li>
                     <li> <a href='#'>Blog</a></li>

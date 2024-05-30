@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* main component */
+.main {
+    height: 85vh;
+    width: 100vw;
+    /* border: 3px solid black; */
+    /* margin: 20px auto; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.m-box1 {
+    height: 85vh;
+    width: 59vw;
+    /* border: 3px solid black; */
+    align-content: center;
+}
+
+.m-heading {
+    font-size: 53px;
+    line-height: 64px;
+    color: rgb(217, 186, 202);
+    margin: 50px;
+    font-family: "poppins-semibold", "poppins", sans-serif;
+    font-weight: 600;
+}
+
+.m-para {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: rgb(48, 54, 33);
+    margin: 50px;
+    font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light", sans-serif;
+}
+
+.m-box2 {
+    height: 85vh;
+    width: 40vw;
+    /* border: 3px solid black; */
+}
+
+.img {
+    height: 83vh;
+    width: 40vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* block */
+.block {
+    height: 32vh;
+    width: 87vw;
+    margin: 30px auto;
+    background-color: #d9baca;
+    /* margin: 20px auto; */
+}
+
+.b-para {
+    height: 32vh;
+    width: 65vw;
+    margin: auto;
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+
+.b-para h2 {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 600;
+    color: white;
+    font-family: "avenir-lt-w01_85-heavy1475544", "avenir-lt-w05_85-heavy", sans-serif;
+}
+
+.b-para li,
+p {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 100;
+    color: rgb(24, 24, 24);
+    font-family: "avenir-lt-w01_85-heavy1475544", "avenir-lt-w05_85-heavy", sans-serif;
+}
+
+.b-para span {
+    color: rgb(61, 155, 233);
+    text-decoration: underline;
+}
+
+/* button */
+
+.btn {
+    height: 50px;
+    width: 200px;
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #d9baca;
+    border-radius: 50px;
+    background-color: #d9baca;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: white;
+    font-family: "avenir-lt-w01_85-heavy1475544", "avenir-lt-w05_85-heavy", sans-serif;
+}
+
+.btn:hover {
+    background-color: #d9baca84;
+    color: white;
+}
