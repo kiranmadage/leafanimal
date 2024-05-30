@@ -2,8 +2,8 @@ import React from "react";
 import { Para } from "../../Component/Sponsor/Para";
 import { Img1 } from "./../../Component/Sponsor/Img1";
 import { Img2 } from "./../../Component/Sponsor/Img2";
-import {Navbar} from "./../../Component/Navbar/Navbar"
-import {Footer} from "./../../Component/Footer/Footer"
+// import {Navbar} from "./../../Component/Navbar/Navbar"
+// import {Footer} from "./../../Component/Footer/Footer"
 
 import "./Sponsor.css";
 
@@ -21,7 +21,7 @@ import i10 from "./i10.jpg";
 export function Sponsor() {
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
       <div className="flex">
         <Img1 i={i1} />
         <Para
@@ -71,7 +71,7 @@ export function Sponsor() {
 
       <button className="b-btn">Load More</button>
 
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 }
