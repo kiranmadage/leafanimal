@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./../../Component/Navbar/Navbar";
 import { Footer } from "../../Component/Footer/Footer";
-import  img  from '../Home/1st.webp';
+
 import './Home.css'
 
 
