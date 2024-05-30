@@ -1,7 +1,7 @@
 import React from "react";
 import { Pic } from "./../../Component/Blog/Pic";
-// import {Navbar} from "./../../Component/Navbar/Navbar"
-// import {Footer} from "./../../Component/Footer/Footer"
+import {Navbar} from "./../../Component/Navbar/Navbar"
+import {Footer} from "./../../Component/Footer/Footer"
 
 import i1 from "./i1.webp";
 import i2 from "./i2.webp";
@@ -32,7 +32,7 @@ import "./Blog.css";
 export function Blog() {
   return (
     <>
-    {/* <Navbar/> */}
+    <Navbar/>
       <div className="blogMain1">
         {/* 1 */}
         <Pic
@@ -278,7 +278,7 @@ export function Blog() {
       </div>
 
 
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

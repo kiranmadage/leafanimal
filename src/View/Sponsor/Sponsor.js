@@ -2,8 +2,8 @@ import React from "react";
 import { Para } from "../../Component/Sponsor/Para";
 import { Img1 } from "./../../Component/Sponsor/Img1";
 import { Img2 } from "./../../Component/Sponsor/Img2";
-// import {Navbar} from "./../../Component/Navbar/Navbar"
-// import {Footer} from "./../../Component/Footer/Footer"
+import { Navbar } from "./../../Component/Navbar/Navbar";
+import { Footer } from "./../../Component/Footer/Footer";
 
 import "./Sponsor.css";
 
@@ -21,7 +21,7 @@ import i10 from "./i10.jpg";
 export function Sponsor() {
   return (
     <>
-    {/* <Navbar/> */}
+      <Navbar />
       <div className="flex">
         <Img1 i={i1} />
         <Para
@@ -49,29 +49,27 @@ export function Sponsor() {
         />
       </div>
 
-      
       <h1 className="heading">Find an Animal to Sponsor</h1>
-      
 
       <div className="block">
-        <Img2 i={i4} h={"Batoot"} p={"Nasr City"}/>
-        <Img2 i={i5} h={"Blackey"} p={"Heliopolis"}/>
-        <Img2 i={i6} h={"Foffa"} p={"Heliopolis"}/>
+        <Img2 i={i4} h={"Batoot"} p={"Nasr City"} />
+        <Img2 i={i5} h={"Blackey"} p={"Heliopolis"} />
+        <Img2 i={i6} h={"Foffa"} p={"Heliopolis"} />
       </div>
 
       <div className="block">
-        <Img2 i={i7} h={"Fosdo2a"} p={"Heliopolis"}/>
-        <Img2 i={i8} h={"Farfoush"} p={"Heliopolis"}/>
-        <Img2 i={i9} h={"Sokara"} p={"Heliopolis"}/>
+        <Img2 i={i7} h={"Fosdo2a"} p={"Heliopolis"} />
+        <Img2 i={i8} h={"Farfoush"} p={"Heliopolis"} />
+        <Img2 i={i9} h={"Sokara"} p={"Heliopolis"} />
       </div>
 
       <div className="block">
-        <Img2 i={i10} h={"Candy (Koki)"} p={"Sheikh Zayed"}/>
+        <Img2 i={i10} h={"Candy (Koki)"} p={"Sheikh Zayed"} />
       </div>
 
       <button className="b-btn">Load More</button>
 
-      {/* <Footer/> */}
+      <Footer />
     </>
   );
 }
