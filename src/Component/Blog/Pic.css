@@ -2,26 +2,29 @@
 
 .box {
     height: 59vh;
-    width: 31.5vw;
+    width: 32vw;
     /* border: 2px solid black; */
     position: relative;
     /* display: inline-block; */
-    margin-bottom: 30px;
+    margin-bottom: 22px;
+    margin-right: 15px;
 }
 
 .img {
     height: 59vh;
-    width: 31.5vw;
+    width: 32vw;
+    margin: -2px;
 }
 
 .block {
     height: 59vh;
-    width: 31.5vw;
+    width: 32vw;
     /* border: 2px solid black; */
-    background-color: rgba(0, 0, 0, 0.679);
+    background-color: rgba(0, 0, 0, 0.557);
     position: absolute;
     z-index: 10;
     top: 0vh;
+    margin: 0px;
 
 }
 
@@ -32,13 +35,14 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 10px !important;
+    margin: auto;
 }
 
 .time {
     height: 7vh;
     width: 10vw;
-    margin-left: 40px;
+    margin-left: 10px;
     /* border: 2px solid red; */
 }
 
@@ -46,31 +50,37 @@
     color: white;
     font-size: 12px;
     line-height: 2vh;
+    /* border: 1px solid pink; */
+    margin-top: -10px;
+    text-align: left;
 }
 
-.icon {
+.i {
     height: 7vh;
     width: 10vw;
     margin-right: 10px;
     /* border: 2px solid red;  */
-    align-content: center;
+    /* align-content: center; */
 }
 
-.icon p {
+.i p {
     color: white;
     font-size: 24px;
-    line-height: 6vh;
+    line-height: normal;
     text-align: end;
+    margin-top: -10px;
+
 }
 
 
 .bottom {
     height: 25vh;
-    width: 29vw;
+    width: 32vw;
     /* border: 2px solid green; */
-    margin-top: 23vh !important;
-    margin: auto;
+    margin-top: 34vh !important;
+    margin: auto ;
     align-content: end;
+    margin-left: -445px !important;
 }
 
 h1 {
@@ -79,22 +89,23 @@ h1 {
     font-weight: 600;
     color: white;
     cursor: pointer;
+    text-align: left;
 
 }
 
 
 .head {
     color: white;
-    width: 25vw;
+    width: 27vw;
     margin: 10px auto;
-    padding-bottom: 20px;
-    border-bottom: 2px solid white;
+    padding-bottom: 0px;
+    border-bottom: 1px solid white;
 }
 
 
 .review {
     height: 5vh;
-    width: 25vw;
+    width: 28vw;
     /* border: 2px solid green; */
     display: flex;
     justify-content: space-between;
@@ -111,8 +122,11 @@ h1 {
 
 .eye p {
     color: white;
-    text-align: start ;
-    line-height: 1vh;
+    text-align: left ;
+    line-height: normal;
+    margin-top: -20px;
+    font-size: 14px;
+
 }
 
 .heart {
@@ -125,5 +139,7 @@ h1 {
 .heart p {
     color: white;
     text-align: end;
-    line-height: 1vh;
+    line-height: normal;
+    margin-top: -20px;
+    font-size: 14px;
 }

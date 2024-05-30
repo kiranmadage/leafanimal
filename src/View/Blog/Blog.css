@@ -3,6 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100vw;
+    /* border: 3px solid red; */
+    align-content: center;
 }
 
 .blogMain2{
@@ -19,5 +22,4 @@
     flex-direction: row;
     justify-content: left;
     flex-wrap: wrap;
-    
 }

@@ -2,7 +2,6 @@ import React from "react";
 import "./FF.css";
 import {Navbar} from "./../../Component/Navbar/Navbar"
 import {Footer} from "./../../Component/Footer/Footer"
-
 import img2 from "./ff-2.webp";
 
 export function FF() {

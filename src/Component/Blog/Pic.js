@@ -18,12 +18,12 @@ export function Pic(props) {
               </div>
 
               {/* for icon */}
-              <div className="icon">
+              <div className="i">
                 <p>⁝</p>
               </div>
             </div>
 
-            {/* for bottom */}
+            {/* for bottom */} 
             <div className="bottom">
               {/* heading */}
               <div className="head">
