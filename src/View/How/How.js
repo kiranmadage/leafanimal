@@ -1,8 +1,8 @@
 import React from "react";
 import "./How.css";
 import { Process } from "./../../Component/How/Process";
-// import {Navbar} from "./../../Component/Navbar/Navbar"
-// import {Footer} from "./../../Component/Footer/Footer"
+import {Navbar} from "./../../Component/Navbar/Navbar"
+import {Footer} from "./../../Component/Footer/Footer"
 
 import img from "./how1.jpg";
 import p1 from "./p1.webp";
@@ -14,7 +14,7 @@ import p5 from "./p5.webp";
 export function How() {
   return (
     <>
-    {/* <Navbar/> */}
+    <Navbar/>
       {/* main Section */}
       <section className="main">
         {/* first para */}
@@ -98,7 +98,7 @@ export function How() {
       {/* Button */}
       <button className="btn">Back to homepage</button>
 
-      {/* <Footer/> */}
+      <Footer/>
     </>
   );
 }

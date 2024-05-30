@@ -27,7 +27,7 @@ export function Pic(props) {
             <div className="bottom">
               {/* heading */}
               <div className="head">
-                <h1>{props.h1}</h1>
+                <h1>{props.h1}</h1>  
               </div>
 
               {/* for eye */}
