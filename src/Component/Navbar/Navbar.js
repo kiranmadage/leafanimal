@@ -1,4 +1,5 @@
 import Img from "./nimg.webp";
+import profile from "./profile-user.png"
 import "./Navbar.css"
 
 export function Navbar() {
@@ -18,6 +19,7 @@ export function Navbar() {
                     <li> <a href='#'>Create Profile</a></li>
                     <li> <a href='#'>FF Workshop</a></li>
                     <li> <a href='#'>Blog</a></li>
+                    <li> <img className="profile" src={profile}></img> <a href='#' className="login">Log In</a></li>
 
                 </ul>
             </div>

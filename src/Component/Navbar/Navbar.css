@@ -13,7 +13,7 @@ body {
 img {
     height: 60px;
     width: 250px;
-    margin: 40px 40px;
+    margin: 40px 20px;
 }
 
 .name {
@@ -26,7 +26,8 @@ img {
 }
 
 li {
-    margin-left: 25px;
+    margin-left: 23px;
+
     font-size: 20px;
     /* text-decoration: none; */
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -39,7 +40,14 @@ li a {
     font-weight: 100;
     color: rgb(81, 78, 78);
 }
-
+.profile{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
+.login{
+    color: rgb(159, 160, 161);
+}
 
 
 /*  Img*/
