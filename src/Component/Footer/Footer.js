@@ -16,22 +16,22 @@ export function Footer() {
         <div className="fut">
           <div className="futter">
             <ul className="ul">
-             <a href='#'> <li>About Us</li></a>
+             <a href='/about'> <li>About Us</li></a>
               <a href='#'><li>Leaf Friend</li></a>
              <a href='#'> <li>Leaf Partners</li></a>
             </ul>
   
             <ul className="ul">
-             <a href='#'> <li>Adopt</li></a>
+             <a href='/adopt'> <li>Adopt</li></a>
               <a href='#'><li>forever</li></a>
-              <a href='#'><li>Sponsor</li></a>
+              <a href='/sponsor'><li>Sponsor</li></a>
             </ul>
   
             <ul className="ul">
               <a href='#'><li>Find a Dog</li></a>
               <a href='#'><li>Find a Cat</li></a>
               <a href='#'><li>Find a home</li></a>
-            <a href='#'>  <li>Find a Sponsor</li></a>
+            <a href='/sponsor'>  <li>Find a Sponsor</li></a>
              <a href='#'> <li>Contact Us</li></a>
             </ul>
   
