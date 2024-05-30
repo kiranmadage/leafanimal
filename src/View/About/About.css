@@ -1,0 +1,222 @@
+.content {
+    height: 1000px;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content h1 {
+    text-align: center;
+    font-family: wfont_e7949c_b995ab02706b4eb086581596c49c3896, wf_b995ab02706b4eb086581596c, orig_visia_pro_bold;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-top: 70px;
+}
+
+.content p {
+    font-family: wfont_e7949c_a74f873dcc86410db98316fe5e7ca66c, wf_a74f873dcc86410db98316fe5, orig_visia_pro_regular;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 140px;
+
+
+}
+
+.hii {
+    /* border: 2px solid black; */
+    height: 700px;
+    width: 640px;
+
+
+}
+.imghii{
+    height: 250px;
+    width: 250px;
+    margin-left: 170px;
+    margin-bottom: 0px;
+    
+}
+.imghii2{
+    height: 990px;
+    width: 580px;
+    margin-top: 0px;
+}
+/* pin */
+
+
+.pin {
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(232, 193, 212, 0.618);
+    display: flex;
+}
+
+.hellow {
+
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 640px;
+}
+
+
+.hellow p {
+    font-family: wfont_e7949c_a74f873dcc86410db98316fe5e7ca66c, wf_a74f873dcc86410db98316fe5, orig_visia_pro_regular;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 0px 60px;
+}
+
+.hellow h1 {
+
+    font-family: wfont_e7949c_b995ab02706b4eb086581596c49c3896, wf_b995ab02706b4eb086581596c, orig_visia_pro_bold;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 55px;
+    /* padding-top: 70px; */
+    margin-left: 59px;
+}
+
+/* pin2 */
+.pin2 {
+    height: 70vh;
+    width: 40vw;
+    
+    /* border: 2px solid black; */
+    /* margin: auto; */
+}
+
+.pin2 .img{
+    height: 80vh;
+    width: 40vw;
+}
+
+
+
+
+
+
+.mainpin {
+    height: 110vh;
+    width: 100vw;
+    background-color: rgb(220, 186, 202);
+
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+.mainpin1 {
+    height: 100vh;
+    width: 50vw;
+    /* border: 2px solid red; */
+}
+
+.mainpin1 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-top: 70px;
+
+}
+
+.mainpin1 p {
+    margin-left: 160px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.mainpinimg {
+    /* border: 2px solid purple; */
+    background: url(mainpindog.webp);
+    background-size: cover;
+    background-position: center;
+    width: 49vw;
+    height: 110vh;
+}
+
+
+.mainpanda{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(222, 183, 202);
+display: flex;
+    /* border: 2px solid black; */
+   
+    flex-wrap: wrap;
+
+
+}
+.mainpanda1{
+    background: url(pin3.webp);
+    background-size: cover;
+    background-position: center;
+    width: 51vw;
+    height: 100vh;
+    /* margin-left: 5px; */
+}
+.mainpanda2{
+    height: 100vh;
+    width: 40vw;
+    
+    /* border: 2px solid black; */
+}
+.mainpanda2 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    margin-top: 70px;
+}
+.mainpanda2 p {
+    margin-left: 160px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+
+
+/* Reviews */
+
+
+.Reviews{
+    height: 530px;
+    width: 100%;
+    background-color:rgb(224, 206, 214); 
+    border: 2px solid black;
+}
+.Reviews h1{
+    color:rgb(95, 91, 93);  
+    text-align: center;
+    font-size: 50px;
+}
+.Reviews1{
+    height: 350px;
+    width: 890px;
+    /* border: 2px solid brown; */
+    margin-left: 190px;
+    background-color: rgb(195, 161, 177);
+    padding: 30px;
+}
+.Reviews2{
+    height: 250px;
+    width: 790px;
+    border: 2px solid brown;
+    margin: 40px 40px; 
+    background-color: aliceblue;
+    /* margin-top: 20px; */
+}

@@ -1,0 +1,72 @@
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    height: 130px;
+    width: 100%;
+    border: 1px solid rgb(209, 202, 202);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 60px;
+    width: 250px;
+    margin: 40px 20px;
+}
+
+.name {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+}
+
+li {
+    margin-left: 23px;
+
+    font-size: 20px;
+    /* text-decoration: none; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+
+}
+
+li a {
+    text-decoration: none;
+    font-family: "poppins-semibold", "poppins", sans-serif;
+    font-weight: 100;
+    color: rgb(81, 78, 78);
+}
+.profile{
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+}
+.login{
+    color: rgb(159, 160, 161);
+}
+
+
+/*  Img*/
+
+.img {
+    height: 90vh;
+    width: 100vw;
+    border: 3px solid rgb(243, 239, 239);
+    background: url('./nimg.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-content: center;
+
+}
+
+.img h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+
+
+}
