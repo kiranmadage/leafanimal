@@ -3,6 +3,7 @@
     width: 100%;
     /* border: 2px solid black; */
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -36,10 +37,13 @@
     height: 250px;
     width: 250px;
     margin-left: 170px;
+    margin-bottom: 0px;
+    
 }
 .imghii2{
-    height: 250px;
-    width: 250px;
+    height: 990px;
+    width: 580px;
+    margin-top: 0px;
 }
 /* pin */
 
