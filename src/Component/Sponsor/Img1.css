@@ -1,0 +1,12 @@
+.image {
+    /* border: 3px solid black; */
+    height: 47vh;
+    width: 33.3vw;
+    display: inline-block;
+    /* margin-right: 10px; */
+}
+
+.img{
+    height: 47vh;
+    width: 33.3vw;
+} 

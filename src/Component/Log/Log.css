@@ -1,0 +1,104 @@
+section {
+    height: 97vh;
+    width: 100vw;
+    /* border: 2px solid black; */
+    align-content: center;
+}
+
+
+.cross {
+    text-align: end;
+    margin-right: 100px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+}
+
+.sign {
+    height: 60vh;
+    width: 30vw;
+    /* border: 2px solid black; */
+    margin: auto;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.log {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.log span {
+    color:
+        rgb(143, 161, 98);
+}
+
+.app {
+    border-bottom: 1px solid black;
+    height: 17vh;
+    width: 20vw;
+    margin: auto;
+    margin-top: 40px !important;
+}
+
+.box {
+    height: 50px;
+    width: 20vw;
+    margin: 15px auto;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.icon {
+    height: 25px;
+    width: 2vw;
+    /* margin-right: 10px !important; */
+    margin-left: -50px !important;
+    margin-top: 12px;
+    display: block;
+
+}
+
+.facebook {
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+}
+
+.read {
+    text-align: center;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.read span {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.term {
+    text-align: center;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+
+}
+
+.term span {
+    text-decoration: underline;
+}

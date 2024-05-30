@@ -1,17 +1,76 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import {Home} from "./View/Home/Home"
+import {About} from "./View/About/About"
+import {Adopt} from "./View/Adopt/Adopt"
+import {Foster} from "./View/Foster/Foster"
+import { Sponsor } from "./View/Sponsor/Sponsor";
+import { How } from "./View/How/How";
+import { Cprofile } from "./View/Cprofile/Cprofile";
+import { FF } from "./View/FF/FF";
+import {Blog} from "./View/Blog/Blog"
+import { Log } from "./View/Login/Log";
+
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+
+const routes=createBrowserRouter(
+  [
+    {
+      path:'/',
+      element:<Home/>
+    },
+
+    {
+      path:'./about',
+      element:<About/>
+    },
+
+    {
+      path:'./adopt',
+      element:<Adopt/>
+    },
+
+    {
+      path:'./foster',
+      element:<Foster/>
+    },
+
+    {
+      path:'./sponsor',
+      element:<Sponsor/>
+    },
+
+    {
+      path:'./how',
+      element:<How/>
+    },
+
+    {
+      path:'./cprofile',
+      element:<Cprofile/>
+    },
+
+    {
+      path:'./ff',
+      element:<FF/>
+    },
+
+    {
+      path:'./blog',
+      element:<Blog/>
+    },
+
+    {
+      path:'./login',
+      element:<Log/>
+    },
+  ]
+)
+
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <RouterProvider router={routes}/>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

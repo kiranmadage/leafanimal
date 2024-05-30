@@ -1,0 +1,42 @@
+
+
+.box{
+    height: 63vh;
+    width: 26vw;
+    /* border: 2px solid blue; */
+
+}
+
+.img{
+    width: 26vw;
+    height: 45vh;
+}
+
+.b-p{
+    text-align: center;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgb(48, 54, 33);
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.b-p span{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 200;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(217, 186, 202);
+    border: 1px solid rgb(217, 186, 202);
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    margin-top: -30px !important;
+}
