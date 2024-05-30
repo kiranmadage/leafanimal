@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "./../../Component/Navbar/Navbar";
 import { Footer } from "../../Component/Footer/Footer";
-import  img  from '../Home/1st.webp';
+
 import './Home.css'
 
 
@@ -58,9 +58,9 @@ export function Text1() {
                     <p>Leaf Animals is an adoption website that connects animals in need with the right people. Based online, we work as an independent third party between those looking to rehome an animal and those wishing to adopt, foster or sponsor an animal.</p>
                     <input className="sbutten1" type="submit" value="Learn more" />
                 </div>
-                {/* <div className="about2">
+                <div className="about2">
                     <img src={img2} />
-                </div> */}
+                </div>
             </div>
 
 
