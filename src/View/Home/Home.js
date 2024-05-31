@@ -60,7 +60,7 @@ export function Text1() {
                     <input className="sbutten1" type="submit" value="Learn more" />
                 </div>
                 <div className="about2">
-                    <img src={img2} />
+                    {/* <img src={img2} /> */}
                 </div>
             </div>
 

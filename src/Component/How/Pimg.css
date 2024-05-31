@@ -1,0 +1,19 @@
+/* process component */
+
+
+/* .bp-box1{
+    height: 58vh;
+    width: 49vw;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+} */
+
+
+.bp-img{
+    /* border: 2px solid black; */
+    height: 58vh;
+    width: 15vw;
+}
