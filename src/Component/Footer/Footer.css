@@ -20,13 +20,22 @@ ul {
 }
 .fut {
     background-color: rgb(243, 230, 237);
+    height: 300px;
+    margin: 15px 0px;
 
 }
 
-.icon {
-    height: 40px;
-    width: 40px;
+.iconn {
+    height: 30px;
+    /* display: inline; */
+    width: 30px;
     border: 4px double rgb(56, 54, 54);
     border-radius: 50px;
-    margin: 10px;
+    margin: 5px;
+  
+}
+.footericon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
 }

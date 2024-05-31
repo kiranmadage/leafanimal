@@ -2,10 +2,14 @@ import React from "react";
 import { Navbar } from "./../../Component/Navbar/Navbar";
 import { Footer } from "../../Component/Footer/Footer";
 // import { mainpindod } from "../About/mainpindog.webp"
-import img1 from "./1img.webp" 
+import img1 from "./1img.webp"
 import pini from "./pin2.webp";
 import pin3 from "./pin3.webp"
 import img2 from "./img2.webp"
+
+import about1 from "./1.png"
+import about2 from './2.png'
+import about3 from "./3.png"
 
 // import { img2 } from './1img.webp'
 import './About.css'
@@ -24,7 +28,7 @@ export function About() {
     return (
         <>
             <Navbar />
-   
+
 
             <div className="content">
                 <div className="hii">
@@ -39,7 +43,7 @@ export function About() {
                     </div>
                 </div>
                 <div>
-                <img className="imghii2" src={img1}></img>
+                    <img className="imghii2" src={img1}></img>
                 </div>
 
             </div>
@@ -103,7 +107,11 @@ export function About() {
                 <h1>Reviews</h1>
                 <div className="Reviews1" >
                     <div className="Reviews2">
-
+                        
+                            <img className="about1" src={about1}></img>
+                            <img className="about1" src={about2}></img>
+                            <img className="about1" src={about3}></img>
+                       
                     </div>
                 </div>
             </div>

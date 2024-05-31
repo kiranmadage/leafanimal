@@ -47,12 +47,13 @@ export function Footer() {
             </ul>
             <img src={nav} />
           </div>
-          <div >
-            <center>
-              <a> <img className="icon" src={facebook} /></a>
-              <a> <img className="icon" src={instagram} /></a>
-              <a> <img className="icon" src={twetter} /></a>
-            </center>
+
+
+          <div className='footericon'>
+          <div>    <a> <img className="iconn" src={facebook} /></a></div>
+           <div>   <a> <img className="iconn" src={instagram} /></a></div>
+           <div>   <a> <img className="iconn" src={twetter} /></a></div>
+          
   
           </div>
   
