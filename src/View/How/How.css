@@ -2,7 +2,7 @@
 
 
 /* main component */
-.main {
+.h-main {
     height: 85vh;
     width: 100vw;
     /* border: 3px solid black; */
@@ -13,14 +13,14 @@
     align-content: center;
 }
 
-.m-box1 {
+.hm-box1 {
     height: 85vh;
     width: 59vw;
     /* border: 3px solid black; */
     align-content: center;
 }
 
-.m-heading {
+.hm-heading {
     font-size: 53px;
     line-height: 64px;
     color: rgb(217, 186, 202);
@@ -29,7 +29,7 @@
     font-weight: 600;
 }
 
-.m-para {
+.hm-para {
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
@@ -38,38 +38,42 @@
     font-family: "avenir-lt-w01_35-light1475496", "avenir-lt-w05_35-light", sans-serif;
 }
 
-.m-box2 {
+.hm-box2 {
     height: 85vh;
     width: 40vw;
     /* border: 3px solid black; */
 }
 
-.img {
+.h-img {
     height: 83vh;
     width: 40vw;
 }
 
+/* images and para */
+.p-images {
+    height: 60vh;
+    width: 100vw;
+    /* border: 3px solid black; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bp-box2{
+    height: 58vh;
+    width: 49vw;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0;
+}
 
 /* block */
-.block {
+.h-block {
     height: 32vh;
     width: 87vw;
     margin: 30px auto;
@@ -77,7 +81,7 @@
     /* margin: 20px auto; */
 }
 
-.b-para {
+.hb-para {
     height: 32vh;
     width: 65vw;
     margin: auto;
@@ -85,7 +89,7 @@
     padding: 20px;
 }
 
-.b-para h2 {
+.hb-head {
     font-size: 24px;
     line-height: normal;
     font-weight: 600;
@@ -93,8 +97,7 @@
     font-family: "avenir-lt-w01_85-heavy1475544", "avenir-lt-w05_85-heavy", sans-serif;
 }
 
-.b-para li,
-p {
+.hb-li {
     font-size: 18px;
     line-height: 29px;
     font-weight: 100;
@@ -102,7 +105,16 @@ p {
     font-family: "avenir-lt-w01_85-heavy1475544", "avenir-lt-w05_85-heavy", sans-serif;
 }
 
-.b-para span {
+.hb-p {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 100;
+    color: rgb(24, 24, 24);
+    font-family: "avenir-lt-w01_85-heavy1475544", "avenir-lt-w05_85-heavy", sans-serif;
+}
+
+
+.hb-para span {
     color: rgb(61, 155, 233);
     text-decoration: underline;
 }

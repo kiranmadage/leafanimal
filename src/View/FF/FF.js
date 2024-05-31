@@ -10,7 +10,7 @@ export function FF() {
 
     <Navbar/>
       {/* Main */}
-      <section className="img">
+      <section className="f-img">
         <h1>An Introduction to Force-Free Training</h1>
         <div className="m-box">
           <p>
