@@ -23,8 +23,9 @@ export function Home() {
 export function Img() {
     return (
         <>
-            <section className="img">
-                <h1 >Find your forever<br></br> companion</h1>
+            <section className="ho-img">
+                <h1 className="ho-h1">Find your forever<br></br> companion</h1>
+                <input className="ho-sbutten" type="submit" value="Start Now" />
             </section>
         </>
     );
@@ -60,7 +61,7 @@ export function Text1() {
                     <input className="sbutten1" type="submit" value="Learn more" />
                 </div>
                 <div className="about2">
-                    {/* <img src={img2} /> */}
+                    <img src={img2} />
                 </div>
             </div>
 

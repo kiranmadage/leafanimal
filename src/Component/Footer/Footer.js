@@ -45,7 +45,7 @@ export function Footer() {
              <a href='#'> <li>Consultation Terms</li></a>
   
             </ul>
-            <img src={nav} />
+            <img  src={nav} />
           </div>
 
 

@@ -5,21 +5,21 @@ import "./Navbar.css"
 export function Navbar() {
     return (
         <>
-            <div className="main">
-                <img src={Img} />
+            <div className="n-main">
+                <img src={Img} className="n-img" />
 
-                <ul className="name">
+                <ul className="n-name">
 
 
-                    <li> <a href='/about'>About</a></li>
-                    <li> <a href='/adopt'>Adopt</a></li>
-                    <li> <a href='/foster'>Foster</a></li>
-                    <li> <a href='/sponsor'>Sponsor</a></li>
-                    <li> <a href='/how'>How to</a></li>
-                    <li> <a href='/cprofile'>Create Profile</a></li>
-                    <li> <a href='/ff'>FF Workshop</a></li>
-                    <li> <a href='/blog'>Blog</a></li>
-                    <li> <img className="profile" src={profile}></img> <a href='/login' className="login">Log In</a></li>
+                    <li className="n-li"> <a href='/about' className="n-a">About</a></li>
+                    <li className="n-li"> <a href='/adopt' className="n-a">Adopt</a></li>
+                    <li className="n-li"> <a href='/foster' className="n-a">Foster</a></li>
+                    <li className="n-li"> <a href='/sponsor' className="n-a">Sponsor</a></li>
+                    <li className="n-li"> <a href='/how' className="n-a">How to</a></li>
+                    <li className="n-li"> <a href='/cprofile' className="n-a">Create Profile</a></li>
+                    <li className="n-li"> <a href='/ff' className="n-a">FF Workshop</a></li>
+                    <li className="n-li"> <a href='/blog' className="n-a">Blog</a></li>
+                    <li className="n-li"> <a href='/login' className="n-login n-a"> <img className="n-profile" src={profile}></img> Log In</a></li>
 
                 </ul>
             </div>

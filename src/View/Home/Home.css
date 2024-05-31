@@ -1,24 +1,35 @@
 
 /*  Img*/
 
-.img {
-    height: 90vh;
+.ho-img {
+    height: 85vh;
     width: 100vw;
     border: 3px solid rgb(243, 239, 239);
     background: url(./1st.webp) no-repeat;
     background-size: cover;
     background-position: center;
     align-content: center;
+    margin-top:-5px ;
 
 }
 
-.img h1 {
+.ho-h1 {
     text-align: center;
     color: white;
-    font-size: 100px;
+    font-size: 92px;
+    line-height: 102px;
+    font-weight: bolder;
    
 
 
+}
+.ho-sbutten{
+    background-color: rgb(249, 252, 254);
+    height: 45px;
+    width: 140px;
+    border-radius: 50px;
+    margin-left: 600px;
+    border: 2px solid white;
 }
 
 
@@ -30,7 +41,7 @@
     height: 350px;
     /* border: 2px solid black; */
     align-content: center;
-}
+} 
 
 .text {
     height: 250px;
